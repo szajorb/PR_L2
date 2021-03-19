@@ -20,3 +20,19 @@ footer p{
     text-align: center;
     margin: 0px;
 }
+.scroll {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+…
+
+/*dodanie pocz¹tkowe ukrycie przycisku */
+.scroll {
+    …
+   display: none;
+}
